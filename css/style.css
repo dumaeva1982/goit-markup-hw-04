@@ -136,7 +136,7 @@ body {
    rgba(47, 48, 58, 0.4),
    rgba(47, 48, 58, 0.4)
   ),
-    url(..|images|img8.jpg);
+    url(../images/Img8.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -408,7 +408,7 @@ body {
     margin-bottom: 9px;
   }
 
-  .footer-social{
+  .icon-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -416,19 +416,17 @@ body {
   text-transform: uppercase;
   color: var(--цвет-фона);
   margin-bottom: 20px;
-  align-items: 
   }
 
 .conteiner-block {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
-.address-block {
-  margin-right: 70px;
-}
+ .address-block{
+ margin-right: 70 px;  
+ }
 .icon-social {
   display: flex;
-  align-items: center; 
 }
 .footer-link {
   display: inline-flex;
@@ -725,9 +723,7 @@ body {
 
 .icon-social .link {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
+    width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
