@@ -100,13 +100,15 @@ body {
     color: var(--цвет-фокуса);
   }
   .nav-list-contacts {
-    display: flex;
-    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+   margin-left: auto;
   }
   .nav-contacts:not(:last-child) {
     margin-right: 50px;
   }
   .contacts {
+    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -430,6 +432,8 @@ body {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+ .link:hover .icons{fill:var(--цвет-фона) }
+
 .icons2 {
   fill: var(--цвет-фона);
 }
