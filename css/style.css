@@ -401,7 +401,6 @@ img {
 }
 
 .icon-title {
-  text-align: right;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -416,11 +415,9 @@ img {
   align-items: baseline;
 }
 .address-block {
-  margin-right: 70 px;
+  margin-right: 70px;
 }
-.icon-social {
-  display: flex;
-}
+
 .footer-link {
   display: inline-flex;
   justify-content: center;
@@ -703,9 +700,6 @@ img {
 }
 
 .footer-social {
-  display: block;
-  width: 206px;
-  height: 80px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -714,15 +708,10 @@ img {
   color: var(--background-color);
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 300px;
 }
 
 .icon-social {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: 23px;
-  margin-right: 0px;
 }
 
 .icon-social .link {
