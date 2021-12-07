@@ -521,7 +521,7 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .product-link {
-  display: inline-block;
+  display: block;
 }
 .buttons {
   display: inline-block;
